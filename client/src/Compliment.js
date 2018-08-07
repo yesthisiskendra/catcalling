@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
+import catIcon from './caticon.png';
 
 const Compliment = props => (
   <div className="singleCompliment">
-    <img alt="user_image" className="userImage" src={`https://picsum.photos/70?random=${props.id}`} />
+    <img alt="user_image" className="userImage" src={catIcon} />
     <div className="textContent">
       <div className="singleComplimentContent">
         <h3>{props.author}</h3>
